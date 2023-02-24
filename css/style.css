@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   
     font-size: 10px;
   }
   
-  body {
+body {
 
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
@@ -11,6 +15,7 @@ html {
     text-align: center;
     color: black;
     margin: 0;
+    background-color: aquamarine;
   }
   
   h1 {
@@ -28,7 +33,7 @@ html {
   
 
   img {
-    max-width: 100%;
+    max-width: 80%;
     display: block;
     height: auto;
     margin: 0 auto;
@@ -49,6 +54,9 @@ html {
     font-size: small;
   }
   
+  #tribute-info {
+    text-align: start;
+  }
 
   
 
